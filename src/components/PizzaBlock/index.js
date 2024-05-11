@@ -15,7 +15,7 @@ const PizzaBlock = ({title,price,imageUrl,sizes,types}) => {
     src={imageUrl}
     alt="Pizza"
   />
-  <h4 className="pizza-block__title">{title}11111</h4>
+  <h4 className="pizza-block__title">{title}</h4>
   <div className="pizza-block__selector">
     <ul>
       {
