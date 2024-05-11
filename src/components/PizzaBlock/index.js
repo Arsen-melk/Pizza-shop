@@ -12,7 +12,7 @@ const PizzaBlock = ({title,price,imageUrl,sizes,types}) => {
         <div className="pizza-block">
   <img
     className="pizza-block__image"
-    src="https://img.freepik.com/free-psd/pictou-county-pizza-isolated-on-transparent-background_191095-32844.jpg?size=338&ext=jpg&ga=GA1.1.1413502914.1715040000&semt=ais"
+    src={imageUrl}
     alt="Pizza"
   />
   <h4 className="pizza-block__title">{title}</h4>
